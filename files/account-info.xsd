@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://cscdesenvolvimento.com.br"
+        xmlns:tns="http://cscdesenvolvimento.com.br"
+        elementFormDefault="qualified">
+
+    <xs:element name="GetAccountDetailRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <element name="id" type="xs:integer" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetAccountDetailResponse">
+        <complexType>
+            <sequence>
+                <xs:element name="AccountDetail" type="tns:AccountDetail" />
+            </sequence>
+        </complexType>
+    </xs:element>
+
+    <xs:element name="GetAllAccountDetailResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="AccountDetail" type="tns:AccountDetail" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="AccountDetail">
+        <xs:sequence>
+            <xs:element name="id" type="xs:integer" />
+            <xs:element name="accountHolderId" type="xs:integer" />
+            <xs:element name="creationDate" type="xs:date" />
+            <xs:element name="accountType" type="xs:string" />
+            <xs:element name="balance" type="xs:double" />
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

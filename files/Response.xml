@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GetAccountDetailResponse
+        xmlns="http://cscdesenvolvimento.com.br"
+        xsi:schemaLocation="http://cscdesenvolvimento.com.br account-info.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <AccountDetail>
+        <id>123</id>
+        <accountHolderId>123</accountHolderId>
+        <creationDate>2021-12-10</creationDate>
+        <accountType>CURRENT</accountType>
+        <balance>12000</balance>
+    </AccountDetail>
+</GetAccountDetailResponse>

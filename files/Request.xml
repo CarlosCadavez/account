@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GetAccountDetailRequest
+        xmlns="http://cscdesenvolvimento.com.br"
+        xsi:schemaLocation="http://cscdesenvolvimento.com.br account-info.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>123</id>
+</GetAccountDetailRequest>
