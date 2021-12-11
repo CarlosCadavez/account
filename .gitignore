@@ -25,3 +25,7 @@ hs_err_pid*
 # Intellij
 .DS_Store
 .idea
+
+# Maven
+log/
+target/
